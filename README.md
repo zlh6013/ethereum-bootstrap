@@ -129,7 +129,7 @@ miner.stop()
 
 ```
 // 本地钱包的第一个地址所持有的token数量
-> web3.eth.getBalance(web3.eth.accounts[0])
+> token.getBalance(web3.eth.accounts[0])
 0
 
 // 发行100个token给本地钱包的第一个地址
